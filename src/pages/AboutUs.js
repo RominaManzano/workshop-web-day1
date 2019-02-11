@@ -18,6 +18,11 @@ import NodeLogo from '../assets/node-logo.png';
 const AboutUs = (props) => {
   const reactLink = 'https://reactjs.org/';
   const nodeLink = 'https://nodejs.org/es/';
+  const description = `
+    During this workshop you'll learn basic notions of ReactJS and NodeJS.
+    The goal is to build a small, fully functional application that helps you understand the core
+    concepts of this technologies.
+  `;
 
   return (
     <Container>
@@ -25,9 +30,7 @@ const AboutUs = (props) => {
         About Us
       </Title>
       <Description>
-        During this workshop you'll learn basic notions of ReactJS and NodeJS.
-        The goal is to build a small, fully functional application that helps you understand the core
-        concepts of this technologies.
+        {description}
       </Description>
 
       <Row>
